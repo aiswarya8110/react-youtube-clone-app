@@ -1,0 +1,33 @@
+.relatedVideo{
+    text-decoration: none;
+    color: white;
+}
+
+.relatedVideo__details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.relatedVideo__image{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.relatedVideo__text{
+    padding: 10px;
+    margin-left: 5px;
+    flex: 1;
+}
+
+.relatedVideo__title{
+    font-size: 14px;
+}
+
+.relatedVideo__text > p{
+    font-size: 12px;
+    margin-top: 3px;
+    color: #606060;
+}

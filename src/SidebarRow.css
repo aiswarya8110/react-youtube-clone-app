@@ -1,0 +1,30 @@
+.sidebarRow{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebarRow__iconsAndTitle{
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+}
+
+.sidebarRow__icon{
+    font-size: 25px !important;
+}
+
+.sidebarRow__title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidebarRow__iconsAndTitle:hover{
+    cursor: pointer;
+    color: #FF0000;
+}
+
+.sidebarRow__iconsAndTitle.selected{
+    color: #FF0000;
+}

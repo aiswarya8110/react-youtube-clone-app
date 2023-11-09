@@ -1,0 +1,43 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.videoRow__image{
+    object-fit: cover;
+    width: 250px;
+    height: 138px;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.videoRow__image:hover{
+    border-radius: unset;
+}
+
+.videoRow__text{
+    margin-left: 14px;
+}
+
+.videoRow__text{
+    word-break: break-word;
+}
+
+.videoRow__description{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #606060;
+}
+
+.videoRow__headline{
+    font-size: 12px;
+    color: #606060;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .videoRow__image{
+        width: 200px;
+    }
+}

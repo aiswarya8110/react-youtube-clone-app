@@ -1,0 +1,31 @@
+.channelVideo{
+    margin: 20px;
+    width: 250px;
+}
+
+.channelVideo__image{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.channelVideo__image:hover{
+    border-radius: unset;
+}
+
+.channelVideo__text{
+    font-size: small;
+    color: #606060;
+    font-weight: 300;
+    padding-right: 10px;
+}
+
+.channelVideo__title{
+    color: white;
+}
+
+.channelVideo__text > p{
+    margin-top: 3px;
+}

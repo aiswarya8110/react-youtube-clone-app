@@ -1,0 +1,11 @@
+.sidebar{
+    flex: 0.2;
+    border-right: 1px solid rgb(39, 39, 39);
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1200px){
+    .sidebar{
+        display: none;
+    }
+}

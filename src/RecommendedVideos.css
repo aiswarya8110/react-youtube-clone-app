@@ -1,0 +1,21 @@
+.recommendedVideos{
+    flex: 1;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.recommendedVideos > h2{
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.recommendedVideos__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 850px){
+    .recommendedVideos__videos{
+        justify-content: center;
+    }
+}
